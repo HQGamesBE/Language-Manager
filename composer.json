@@ -1,0 +1,45 @@
+{
+    "name": "xxarox/template-for-plugins",
+    "version": "1.0",
+    "license": "LICENSE",
+    "config": {
+        "github-oauth": {
+            "github.com": "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"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "HQGames\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jan Sohn / xxAROX",
+            "email": "arox.email.0@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:HQGamesBE/Core.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:HQGamesBE/Bridge.git"
+        },
+        {
+            "type": "vcs",
+            "url":  "git@github.com:xxAROX/plugin-security.git"
+        }
+    ],
+    "require": {
+        "ext-yaml": "*",
+        "ext-mbstring": "*"
+    },
+    "require-dev": {
+        "pocketmine/pocketmine-mp": "^4.6",
+        "xxarox/plugin-security": "dev-main",
+        "hqgames/core": "dev-main",
+        "hqgames/bridge": "dev-main"
+    }
+}
