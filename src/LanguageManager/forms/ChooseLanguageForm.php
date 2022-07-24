@@ -6,15 +6,17 @@
  */
 
 declare(strict_types=1);
-namespace HQGames\LanguageManager;
+namespace HQGames\LanguageManager\forms;
 use HQGames\Core\player\Player;
 use HQGames\forms\elements\Button;
 use HQGames\forms\types\MenuForm;
+use HQGames\LanguageManager\Language;
+use HQGames\LanguageManager\LanguageManager;
 
 
 /**
  * Class ChooseLanguageForm
- * @package HQGames\LanguageManager
+ * @package HQGames\LanguageManager\forms
  * @author Jan Sohn / xxAROX
  * @date 24. July, 2022 - 20:45
  * @ide PhpStorm
