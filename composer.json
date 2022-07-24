@@ -29,6 +29,10 @@
         },
         {
             "type": "vcs",
+            "url":  "git@github.com:HQGames/Protocol.git"
+        },
+        {
+            "type": "vcs",
             "url":  "git@github.com:xxAROX/plugin-security.git"
         }
     ],
