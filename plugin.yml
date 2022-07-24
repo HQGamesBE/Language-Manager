@@ -1,9 +1,9 @@
-name: "plugin_name"
+name: "Language-Manager"
 version: "1.0"
 author: "xxAROX"
-website: "https://github.com/xxAROX/"
-description: "plugin_name by xxAROX."
+website: "https://github.com/HQGames/Language-Manager"
+description: "Language-Manager by xxAROX."
 
 api:
   - "4.0.0"
-main: xxAROX\plugin_name\plugin_name
+main: HQGames\LanguageManager\LanguageManager

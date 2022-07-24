@@ -1,0 +1,11 @@
+// Make request to github files API
+GET https://api.github.com/repos/HQGamesBE/Language/contents/eng.json
+Authorization: token %GH_TOKEN%
+Accept: application/vnd.github.v3.raw
+
+
+
+//curl -H ': token INSERTACCESSTOKENHERE' \
+//  -H 'Accept: application/vnd.github.v3.raw' \
+//  -O \
+//  -L https://api.github.com/repos/owner/repo/contents/path

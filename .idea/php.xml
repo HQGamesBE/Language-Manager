@@ -31,8 +31,6 @@
       <path value="$PROJECT_DIR$/vendor/ramsey/collection" />
       <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
       <path value="$PROJECT_DIR$/vendor/ramsey/uuid" />
-      <path value="$PROJECT_DIR$/vendor/hqgames/bridge" />
-      <path value="$PROJECT_DIR$/vendor/hqgames/core" />
       <path value="$PROJECT_DIR$/vendor/netresearch/jsonmapper" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/webmozart/path-util" />
@@ -63,6 +61,8 @@
       <path value="$PROJECT_DIR$/vendor/fgrosse/phpasn1" />
       <path value="$PROJECT_DIR$/vendor/pocketmine/log-pthreads" />
       <path value="$PROJECT_DIR$/vendor/pocketmine/pocketmine-mp" />
+      <path value="$PROJECT_DIR$/../Core/src" />
+      <path value="$PROJECT_DIR$/../Bridge/src" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="8.0" />

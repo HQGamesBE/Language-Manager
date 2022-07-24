@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f4a12bee8f598a13fc1b06a8fdeab15",
+    "content-hash": "4b01f30fc01dd01463601cf0d70f003e",
     "packages": [],
     "packages-dev": [
         {
@@ -332,12 +332,12 @@
             "source": {
                 "type": "git",
                 "url": "git@github.com:HQGamesBE/Core.git",
-                "reference": "02111a66daf8ec8fd368f8fa902a0ff4a3245b2a"
+                "reference": "d679c96e6c662032f6bd78ee9092eafada4b8a46"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/HQGamesBE/Core/zipball/02111a66daf8ec8fd368f8fa902a0ff4a3245b2a",
-                "reference": "02111a66daf8ec8fd368f8fa902a0ff4a3245b2a",
+                "url": "https://api.github.com/repos/HQGamesBE/Core/zipball/d679c96e6c662032f6bd78ee9092eafada4b8a46",
+                "reference": "d679c96e6c662032f6bd78ee9092eafada4b8a46",
                 "shasum": ""
             },
             "require": {
@@ -386,7 +386,7 @@
                     "url": "paypal.me/xxarox"
                 }
             ],
-            "time": "2022-07-22T20:24:10+00:00"
+            "time": "2022-07-22T21:13:16+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -3435,7 +3435,8 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "ext-yaml": "*"
+        "ext-yaml": "*",
+        "ext-mbstring": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.1.0"
